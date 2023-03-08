@@ -1,0 +1,118 @@
+
+#contenedor {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+header h1 {
+    width: 20%;
+    height: 90px;
+    font-size: 40px;
+    color: aliceblue;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 100px;
+    background-image: linear-gradient(
+        150deg,
+        royalblue,
+        white   
+    );
+}
+
+/*nav menu*/
+nav h2 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+}
+/* tipo menu */
+
+.menu { 
+    list-style: none;
+    width: 30%;
+    max-height: 1000px;
+    margin-left: 100px;
+}
+.menu li a {
+    color: rgb(10, 123, 222);
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: left;
+
+}
+.menu li a:hover {
+    background-color: orange;
+}
+ul {
+    list-style: none;
+    float: left;
+
+}
+ul li a:hover { background-color: rgb(25, 119, 227);}
+ul li {
+    margin-top: 7px;
+}
+
+ul li  a{
+    text-decoration: none;
+    color:antiquewhite;
+    margin: 8px;
+    border-bottom: 2px solid  rgb(25, 119, 227) ;
+    
+    padding: 5px;
+    
+    
+}
+
+#contenido {
+    width: 85%;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+    background: rgb(76, 76, 80);
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 50px;
+    color: dodgerblue;
+    
+}
+#p1 {
+    margin-left: 200px;
+    margin-right: 100px;
+    border: 1px solid black;
+    padding: 20px;
+    color: slategrey;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.h2 {
+    color: rgb(9, 8, 8);
+}
+/* aside{
+    width: 350px;
+    background-color: green;
+    margin-top: 10px;
+    float: right;
+}
+aside h2 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 500px; */
+/* } */
+footer {
+    background-color: #932525;
+    clear: both;
+}
+footer h2 {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    font-style:italic;
+
+}
